@@ -39,6 +39,7 @@ header {
     display: flex;
     flex-direction:column; 
     align-items: center; 
+  
     
     }
 
@@ -77,6 +78,7 @@ solid 2px border using #45ADAD,
 }
 
 
+
 /* Edit the css for the card class to match our example. Achieve this by using a flex-property to specify an initial “size” of 450px.  You need to think about this from a “flex” perspective and realize that flex-direction will affect the size of the elements.  You can see that in the mobile view they all have the same width. */ 
 
 .card {
@@ -90,12 +92,15 @@ solid 2px border using #45ADAD,
     display: flex;
     flex-direction: column;
     align-items: center; 
+    justify-content: center; 
   }
 
   /* to make the cards the same size */ 
 
  .card {
     width: 100%;
+    align-items: center;
+    justify-content: center;
 } 
 
 /* Style the images in the gallery class. These elements will have a solid 10px border with a color of #50C7C7, 10px margin on all four sides and a width of 300px.  */ 
@@ -129,20 +134,20 @@ solid 2px border using #45ADAD,
     /* Header and nav_links flex properties */
     /*flex direction row helps with putting the elements to the ends */ 
 
+
+    
     header{
-        display:flex;
-        flex-direction: row; 
+      display:flex;
+      flex-direction: row; 
 
-    }
-
-    /*made margin to make the links to the far left */ 
+    } 
 
     .nav_links {
-        display:flex;
-        flex-direction: row;  
-        justify-content: right; 
-        margin-left: 500px; 
+      display:flex;
+      flex-direction: row; 
+      justify-content: space-between;
     }
+
   
     /* Edit the css for the pricing and card classes to match our example. Part of achieving this is by using a flex-property to specify a “size” of 275px. Notice that the elements do not have the same height, but do have the same width. */ 
 
@@ -154,6 +159,7 @@ solid 2px border using #45ADAD,
     }
     .card {
         flex-basis: 275px; 
+
 
     }
 
@@ -186,7 +192,7 @@ solid 2px border using #45ADAD,
     /* Change the font on your body to Arial with a backup value of  Helvetica */ 
 
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica;
     }
 
     /* The background image should be removed. */
@@ -231,7 +237,7 @@ solid 2px border using #45ADAD,
     
     /* Without using list-style-type add the thumbs up entity as shown in the cards. This is a challenge problem. You should not give or receive help when completing it.**For some people the thumbs up is not printing as yellow. That is fine.*/ 
 
-    .cards {
+    .card {
         
     }
 
