@@ -39,7 +39,6 @@ header {
     display: flex;
     flex-direction:column; 
     align-items: center; 
-  
     
     }
 
@@ -48,16 +47,20 @@ header {
 .nav_links { 
     display: flex;
     flex-direction:column;
-        }
+      }
 
 /* Style the links so that they have the same color even after they have been visited. This is a “challenge” problem. You should not give or receive help when completing it. */ 
 
+/* style the links with the color */ 
+
 a {
-    color: blue; /* Set default color */
+    color: blue; 
   }
   
-  a:visited {
-    color: blue; /* Set same color as default */
+/* style the links with the same color after they have been clicked on */ 
+  
+a:visited {
+    color: blue; 
   }
 
 
@@ -143,7 +146,6 @@ solid 2px border using #45ADAD,
     header{
       display:flex;
       flex-direction: row; 
-      flex-wrap:wrap-reverse;
       justify-content: space-between;
 
     } 
